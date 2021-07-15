@@ -84,6 +84,8 @@ export const batch = query => fetchJson(buildUrl('batch'), {
     body: JSON.stringify(query),
 })
 
+export const collectionsInsights = () => fetchJson(buildUrl('collections'))
+
 /*
  URL building only
  */

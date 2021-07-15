@@ -20,6 +20,10 @@ function Menu() {
             url: '/',
             next: true,
         },{
+            name: 'insights',
+            url: '/insights',
+            next: true,
+        },{
             name: 'about',
             url: 'https://github.com/liquidinvestigations/hoover-search',
         },

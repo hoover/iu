@@ -70,6 +70,9 @@ module.exports = withPlugins([ withTM ],
             source: '/api/v1/batch',
             destination: API_URL + '/api/v1/batch',
         },{
+            source: '/api/v1/collections',
+            destination: API_URL + '/api/v1/collections',
+        },{
             source: '/api/v1/doc/:collection/:hash/json',
             destination: API_URL + '/api/v1/doc/:collection/:hash/json',
         },{
